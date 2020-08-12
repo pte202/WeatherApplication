@@ -1,0 +1,13 @@
+.container {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.container > div {
+  padding: 15px;
+}
+
+.container > button {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}

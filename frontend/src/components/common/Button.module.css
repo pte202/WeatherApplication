@@ -1,0 +1,50 @@
+.btn {
+  white-space: nowrap;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btnPrimary {
+  composes: btn;
+  color: #fff;
+  background-color: #094781;
+}
+
+.btnPrimary:hover {
+  color: #fff;
+  background-color: #256fb4;
+}
+
+.btnSuccess {
+  composes: btn;
+  color: #fff;
+  background-color: rgb(6, 119, 6);
+}
+
+.btnSuccess:hover {
+  color: #fff;
+  background-color: rgb(49, 226, 49);
+}
+
+.btnDanger {
+  composes: btn;
+  color: #fff;
+  background-color: #a00606;
+}
+
+.btnDanger:hover {
+  color: #fff;
+  background-color: #f3323b;
+}
+
+.btnDisabled {
+  composes: btn;
+  cursor: default;
+  color: #666666;
+  background-color: #cccccc;
+}

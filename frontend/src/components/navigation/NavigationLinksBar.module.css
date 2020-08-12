@@ -1,0 +1,63 @@
+.linksBar {
+  font-size: 16px;
+  display: grid;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  grid-template-columns: auto;
+}
+
+.linksBar > div:first-child {
+  justify-self: start;
+}
+
+.linksBar .links a {
+  margin: 0px 5px 0px 5px;
+  padding-top: 2.5px;
+  white-space: nowrap;
+  user-select: none;
+  justify-self: center;
+  text-decoration: none;
+  color: black;
+}
+
+.linksBar .links a:hover {
+  color: #256fb4;
+}
+
+.linksBar .links a.selected {
+  color: #094781;
+}
+
+.links {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+
+.burgerPosition {
+  display: inline-block;
+}
+
+.burger {
+  text-align: center;
+}
+
+@media (min-width: 0px) {
+  .links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .links {
+    display: flex;
+  }
+  .burger {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.mainHeader {
+  background: #094781;
+  margin-top: #094781;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+
+.mainHeader > h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+}
+
+.mainHeader > .mainHeaderButton {
+  align-self: center;
+  margin-left: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.mainHeader > .mainHeaderButton:hover {
+  opacity: 0.8;
+}
